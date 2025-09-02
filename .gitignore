@@ -1,0 +1,37 @@
+# Creado por Gemini Code Assist
+
+# Artefactos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Entorno Virtual
+# Carpetas comunes para entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Django
+# Se recomienda no subir la base de datos de desarrollo al repositorio.
+# En tu proyecto, se encuentra en 'djangoapp/db.sqlite3'.
+djangoapp/db.sqlite3
+
+# Directorio para archivos subidos por usuarios (media)
+/media/
+
+# Directorio para archivos estáticos recolectados para producción
+/static_root/
+/staticfiles/
+
+# Archivos de registro (logs)
+*.log
+
+# Variables de entorno
+# Almacena aquí información sensible como la SECRET_KEY o credenciales de la base de datos.
+.env
+
+# Configuración de editores e IDEs
+.vscode/
+.idea/
